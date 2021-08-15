@@ -1,24 +1,24 @@
 # JAVA_JDBC_MySQL
-Accessing MySQL Database using JDBC
-Compilation and Preparation of JAR file
+Accessing MySQL Database using JDBC<br>
+Compilation and Preparation of JAR file<br>
 
-Java Program File Name: NameSearchApp.java
-MySQL Driver: mysql-connector-java-5.1.45-bin.jar
-Manifest File Name: NameSearchApp.mf
-Contents of NameSearchApp.mf
-    Manifest-Version: 1.0
-    Main-Class: SwingSearchApp
-    Class-Path: mysql-connector-java-5.1.45-bin.jar
+Java Program File Name: NameSearchApp.java<br>
+MySQL Driver: mysql-connector-java-5.1.45-bin.jar<br>
+Manifest File Name: NameSearchApp.mf<br>
+Contents of NameSearchApp.mf<br>
+    Manifest-Version: 1.0<br>
+    Main-Class: SwingSearchApp<br>
+    Class-Path: mysql-connector-java-5.1.45-bin.jar<br>
 
-Note: All the files in the same folder (NameSearchApp.java, NameSearchApp.mf, mysql-connector-java-5.1.45-bin.jar)
+Note: All the files in the same folder (NameSearchApp.java, NameSearchApp.mf, mysql-connector-java-5.1.45-bin.jar)<br>
 
-Compiling:
-    javac NameSearchApp.java
-Prparing the JAR file:
-    jar cmf NameSearchApp.mf NameSearchApp.jar NameSearchApp.class
+Compiling:<br>
+    javac NameSearchApp.java<br>
+Prparing the JAR file:<br>
+    jar cmf NameSearchApp.mf NameSearchApp.jar NameSearchApp.class<br>
 
-Running from Command Line:
-    java -jar SwingSearchApp.jar
-Running as Desktop App:
-    Just double-click on the JAR file.
+Running from Command Line:<br>
+    java -jar SwingSearchApp.jar<br>
+Running as Desktop App:<br>
+    Just double-click on the JAR file.<br>
  
